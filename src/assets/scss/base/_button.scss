@@ -14,26 +14,26 @@
   border-radius: 3px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    background-color: var(--primary-200);
-    border-color: var(--primary-200);
-  }
+  // &:hover,
+  // &:focus {
+  //   text-decoration: underline;
+  //   background-color: var(--primary-200);
+  //   border-color: var(--primary-200);
+  // }
 
-  &:visited {
-    color: var(--neutral-900);
-  }
+  // &:visited {
+  //   color: var(--neutral-900);
+  // }
 
   &.color-secondary {
     background-color: var(--brown-500);
     border-color: (var(--brown-500));
 
-    &:hover,
-    &:focus {
-      background-color: var(--secondary-400);
-      border-color: var(--secondary-400);
-    }
+    // &:hover,
+    // &:focus {
+    //   background-color: var(--secondary-400);
+    //   border-color: var(--secondary-400);
+    // }
   }
 
   &.color-neutral {
