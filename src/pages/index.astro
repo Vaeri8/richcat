@@ -24,23 +24,27 @@ import ContentMedia from '../components/ContentMedia.astro'
       </div>
     </div>
   </section>
-  <ContentMedia imgSrc="/accessible-components.webp">
-    <h2>Accessible Components</h2>
-    <p class="text-2xl">
-      This theme provides plenty of tried and tested Accessible Astro Components. Some are native to this theme and a
-      lot of others are integrated using a <a href="https://github.com/markteekman/accessible-astro-components"
-        >separate package</a
-      >. They'll get you up and running in building an accessible solution for your visitors.
-    </p>
-  </ContentMedia>
-  <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
-    <h2>WCAG 2.1 AA Compliant</h2>
-    <p class="text-2xl">
-      Using semantic HTML, landmarks, skip links, screen reader friendly content, aria-labels, keyboard accessible
-      navigation and components, clear outlines and tab indicators and the right color contrast, you're more certain of
-      reaching WCAG AA compliance.
-    </p>
-  </ContentMedia>
+  <div id="roadmap">
+    <h2 class="mb-16 text-6xl">Roadmap</h2>
+    <ContentMedia imgSrc="/accessible-components.webp">
+      <h2>Burn at 1M MC</h2>
+      <p class="text-2xl">
+        10% of total supply will be burnt at 1M market cap. $RICHCAT doesn't care about jeeters.
+      </p>
+    </ContentMedia>
+    <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
+      <h2>More Burn at 5M MC</h2>
+      <p class="text-2xl">
+        $RICHCAT is happy with HODLERS. Another 20% of total supply will be burnt at 5M market cap. Jeeters are starting to cry
+      </p>
+    </ContentMedia>
+    <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
+      <h2>Even More Burn 10M MC</h2>
+      <p class="text-2xl">
+        $RICHCAT decided it's time to fly to the moon. Another 20% of total supply will be burnt at 10M market cap. A secret rocket is revealed to the jeeters.
+      </p>
+    </ContentMedia>
+  </div>
   <section class="mb-32 mt-64">
     <div class="container">
       <h2 class="mb-16 text-6xl">Counters</h2>
