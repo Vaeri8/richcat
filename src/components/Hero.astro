@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components'
-
+import richcat from '../assets/img/rich_cat.png'
 const { src = '/astronaut-hero-img.webp' } = Astro.props
 ---
 
@@ -32,7 +32,7 @@ const { src = '/astronaut-hero-img.webp' } = Astro.props
           </a>
         </div>
       </div>
-      <img class="hidden lg:block" src={src} alt="" decoding="async" />
+      <img class="hidden lg:block" src={richcat} alt="" decoding="async" />
     </div>
   </div>
 </section>
