@@ -24,8 +24,8 @@ import ContentMedia from '../components/ContentMedia.astro'
       </div>
     </div>
   </section>
-  <div id="roadmap">
-    <h2 class="mb-16 text-6xl">Roadmap</h2>
+  <div "id="roadmap">
+    <h2 class="text-6xl my-64">Roadmap</h2>
     <ContentMedia imgSrc="/accessible-components.webp">
       <h2>Burn at 1M MC</h2>
       <p class="text-2xl">
@@ -45,15 +45,4 @@ import ContentMedia from '../components/ContentMedia.astro'
       </p>
     </ContentMedia>
   </div>
-  <section class="mb-32 mt-64">
-    <div class="container">
-      <h2 class="mb-16 text-6xl">Counters</h2>
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
-        <Counter count="520" title="Stars" sub="On GitHub" />
-        <Counter count="17" title="Accessible" sub="Components" />
-        <Counter count="500" title="Commits" sub="Merged" />
-        <Counter count="18+" title="Months" sub="Since launch" />
-      </div>
-    </div>
-  </section>
 </DefaultLayout>
