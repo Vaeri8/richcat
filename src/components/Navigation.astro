@@ -9,7 +9,7 @@ import logo from '../assets/img/logo.svg'
   <div class="container">
     <a href="/" class="flex items-center gap-2 !no-underline">
       <Image src={logo} alt="Rich cat" width="47" height="37" />
-      <span class="font-bold">$RICH CAT</span>
+      <span class="font-bold text-gradient">$RICHCAT</span>
     </a>
     <div class="wrapper">
       <nav class="desktop-menu" aria-label="Main navigation desktop">
@@ -218,6 +218,13 @@ import logo from '../assets/img/logo.svg'
 <style lang="scss" is:global>
   @use '../assets/scss/base/breakpoint' as *;
   @use '../assets/scss/base/outline' as *;
+
+  .text-gradient {
+    background: var(--brown-800);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   #main-navigation {
     > .container {
