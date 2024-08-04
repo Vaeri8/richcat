@@ -7,16 +7,16 @@ import { Icon } from 'astro-icon/components'
 <header>
   <SkipLinks />
   <Navigation>
-    <li class="menu-item">
+    <li class="menu-item text-gradient">
       <a href="/">Home</a>
     </li>
-    <li class="menu-item">
+    <li class="menu-item text-gradient">
           <a href="#tokenomics">Tokenomics</a>
         </li>
-    <li class="menu-item">
+    <li class="menu-item text-gradient">
       <a href="#roadmap">Roadmap</a>
     </li>
-    <li class="menu-item">
+    <li class="menu-item text-gradient">
       <a href="#chart">Chart</a>
     </li>
   </Navigation>
@@ -24,6 +24,13 @@ import { Icon } from 'astro-icon/components'
 
 <style lang="scss" is:global>
   @use '../assets/scss/base/outline' as *;
+
+  .text-gradient {
+    background: var(--brown-800);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   header {
     .type-icon a {
