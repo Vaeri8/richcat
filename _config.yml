@@ -1,0 +1,29 @@
+# Site settings
+title: Rich Cat
+email: richcat@rich.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Your one and only companion on solana chain.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "richcatsonsol.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-primer
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Exclude from processing
+exclude:
+  - CNAME
